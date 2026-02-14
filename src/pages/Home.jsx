@@ -50,10 +50,10 @@ const Home = () => {
         title: "Big 4 Auditor Financial Analyst",
         description:
           "Mulai transformasi dengan instruktur profesional, harga yang terjangkau, dan...",
-        thumbnail: "/public/img/card1.jpg",
+        thumbnail: "/img/card1.jpg",
         instructor_name: "Jenna Ortega",
         instructor_title: "Senior Accountant di Gojek",
-        instructor_avatar: "/public/img/ava1.png",
+        instructor_avatar: "/img/ava1.png",
         rating: 3.5,
         total_reviews: 86,
         price: 300000,
@@ -63,10 +63,10 @@ const Home = () => {
         id: 2,
         title: "Digital Marketing Mastery",
         description: "Pelajari strategi marketing digital dari ahlinya...",
-        thumbnail: "/public/img/card2.jpg",
+        thumbnail: "/img/card2.jpg",
         instructor_name: "Jenna Ortega",
         instructor_title: "Marketing Director di Tokopedia",
-        instructor_avatar: "/public/img/ava2.png",
+        instructor_avatar: "/img/ava2.png",
         rating: 4.5,
         total_reviews: 120,
         price: 450000,
@@ -76,10 +76,10 @@ const Home = () => {
         id: 3,
         title: "UI/UX Design Fundamentals",
         description: "Kuasai prinsip desain yang baik...",
-        thumbnail: "/public/img/card3.jpg",
+        thumbnail: "/img/card3.jpg",
         instructor_name: "Jenna Ortega",
         instructor_title: "Lead Designer di Gojek",
-        instructor_avatar: "/public/img/ava3.png",
+        instructor_avatar: "/img/ava3.png",
         rating: 4.8,
         total_reviews: 95,
         price: 500000,
@@ -89,10 +89,10 @@ const Home = () => {
         id: 4,
         title: "Fullstack Web Development with MERN",
         description: "Bangun aplikasi web modern dari nol sampai deployment...",
-        thumbnail: "/public/img/card4.jpg",
+        thumbnail: "/img/card4.jpg",
         instructor_name: "Angela Yu",
         instructor_title: "Software Engineer di Google",
-        instructor_avatar: "/public/img/ava4.png",
+        instructor_avatar: "/img/ava4.png",
         rating: 4.9,
         total_reviews: 210,
         price: 750000,
@@ -103,10 +103,10 @@ const Home = () => {
         title: "Data Science for Beginners",
         description:
           "Pelajari Python, Pandas, dan cara mengolah data raksasa...",
-        thumbnail: "/public/img/card5.jpg",
+        thumbnail: "/img/card5.jpg",
         instructor_name: "Andrew Ng",
         instructor_title: "AI Researcher di Stanford",
-        instructor_avatar: "/public/img/ava5.png",
+        instructor_avatar: "/img/ava5.png",
         rating: 4.7,
         total_reviews: 340,
         price: 600000,
@@ -117,10 +117,10 @@ const Home = () => {
         title: "Professional Human Resources Management",
         description:
           "Langkah taktis mengelola talenta di perusahaan startup...",
-        thumbnail: "/public/img/card6.jpg",
+        thumbnail: "/img/card6.jpg",
         instructor_name: "Maudy Ayunda",
         instructor_title: "HR Consultant",
-        instructor_avatar: "/public/img/ava6.png",
+        instructor_avatar: "/img/ava6.png",
         rating: 4.2,
         total_reviews: 55,
         price: 250000,
@@ -130,10 +130,10 @@ const Home = () => {
         id: 7,
         title: "Mastering Excel for Business",
         description: "Dari rumus dasar sampai Pivot Table dan Dashboard...",
-        thumbnail: "/public/img/card7.jpg",
+        thumbnail: "/img/card7.jpg",
         instructor_name: "Ken Willboy",
         instructor_title: "Data Analyst di Shopee",
-        instructor_avatar: "/public/img/ava7.png",
+        instructor_avatar: "/img/ava7.png",
         rating: 4.0,
         total_reviews: 150,
         price: 150000,
@@ -144,10 +144,10 @@ const Home = () => {
         title: "Copywriting yang Menjual",
         description:
           "Teknik menulis iklan yang bikin orang langsung checkout...",
-        thumbnail: "/public/img/card8.jpg",
+        thumbnail: "/img/card8.jpg",
         instructor_name: "Raditya Dika",
         instructor_title: "Content Strategist",
-        instructor_avatar: "/public/img/ava8.png",
+        instructor_avatar: "/img/ava8.png",
         rating: 4.6,
         total_reviews: 98,
         price: 350000,
@@ -158,10 +158,10 @@ const Home = () => {
         title: "Cyber Security Essentials",
         description:
           "Lindungi sistem dari serangan hacker dengan teknik terbaru...",
-        thumbnail: "/public/img/card9.jpg",
+        thumbnail: "/img/card9.jpg",
         instructor_name: "Kevin Mitnick",
         instructor_title: "Security Consultant",
-        instructor_avatar: "/public/img/ava9.png",
+        instructor_avatar: "/img/ava9.png",
         rating: 4.8,
         total_reviews: 125,
         price: 850000,
@@ -182,7 +182,7 @@ const Home = () => {
   {/* Background Image Container - ukuran tetap */}
   <div className="absolute h-[300px] sm:h-[360px] md:h-[420px] rounded-2xl overflow-hidden left-1/2 -translate-x-1/2 w-[calc(100%-2rem)] sm:w-[calc(100%-4rem)] md:w-[calc(100%-6rem)] lg:w-[calc(100%-8rem)] max-w-7xl">
     <img
-      src="/public/img/hero.jpg"
+      src="/img/hero.jpg"
       alt="Hero"
       className="w-full h-full object-cover"
     />
@@ -284,7 +284,7 @@ const Home = () => {
         {/* Background Image dengan Overlay */}
         <div className="absolute h-[360px] md:h-[420px] rounded-2xl overflow-hidden left-1/2 -translate-x-1/2 w-[calc(100%-2rem)] sm:w-[calc(100%-4rem)] md:w-[calc(100%-6rem)] lg:w-[calc(100%-8rem)] max-w-7xl">
           <img
-            src="/public/img/cta.jpg"
+            src="/img/cta.jpg"
             alt="Background"
             className="w-full h-full object-cover"
           />
